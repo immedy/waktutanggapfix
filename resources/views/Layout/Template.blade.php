@@ -32,6 +32,7 @@
 </head>
 <!--end::Head-->
 <!--begin::Body-->
+@include('sweetalert::alert')
 
 <body id="kt_body"
     class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed toolbar-tablet-and-mobile-fixed aside-enabled aside-fixed"
@@ -71,6 +72,7 @@
     <script src="assets/js/custom/apps/chat/chat.js"></script>
     <script src="assets/js/custom/modals/create-app.js"></script>
     <script src="assets/js/custom/modals/upgrade-plan.js"></script>
+    <script src="{{asset('assets/js/Tanggal.js')}}"></script>
     <!--end::Page Custom Javascript-->
     <!--end::Javascript-->
 </body>
