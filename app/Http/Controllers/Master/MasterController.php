@@ -43,4 +43,10 @@ class MasterController extends Controller
             'ResponLaporan' => laporan_kerusakan::where('status','0')->latest()->get()
         ]);
     }
+    public function storeResponKerusakan(Request $request)
+    {
+        $validateData = $request->validate([
+            5
+        ]);
+    }
 }
